@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #101820;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  width: min(96vw, 1200px);
+  margin: 0 auto;
+  padding: 2vh 0;
+}
+
+.encabezado {
+  margin-bottom: 1.5vh;
+}
+
+.encabezado h1 {
+  margin: 0;
+  font-size: clamp(1.8rem, 4vw, 3rem);
+}
+
+.encabezado p {
+  margin: 0.4rem 0 0;
+  color: #c7d2df;
+}
+
+.simulador {
+  width: 100%;
+}
+
+canvas {
+  width: 100%;
+  aspect-ratio: 2 / 1;
+  display: block;
+  border-radius: 18px;
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.35);
+  background: #243447;
+}
